@@ -29,7 +29,7 @@ Nessa aplicação os usuários devem ser capazes de:
 ### Screenshot
 
 ![](./screenshot.jpg)
-colocar print aqui
+<img src="/images/screenshots/desktopview.png" alt="">
 
 ### Links
 

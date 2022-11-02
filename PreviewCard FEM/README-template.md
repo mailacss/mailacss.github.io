@@ -90,8 +90,14 @@ Use this section to outline areas that you want to continue focusing on in futur
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
+<<<<<<< HEAD
 
  [<img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> ](https://github.com/mailacss)
+=======
+ [<img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> ](https://github.com/mailacss)
+ <img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> 
+ <a href="https://github.com/mailacss">Maila Cardoso</a>
+>>>>>>> 88742b3a4661ae6e416fcca5e6ca3526a90421f3
 
 Frontend Mentor - [@mailacss](https://www.frontendmentor.io/profile/mailacss)
 LinkedIn - [Maila Cardoso](https://www.linkedin.com/in/maila-cssantos/)

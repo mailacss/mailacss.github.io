@@ -1,11 +1,11 @@
 # Frontend Mentor - Product preview card component solution
 
-Essa é a solução do projeto [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
+![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
-## Table of contents
+Essa é a solução do projeto [Product Preview Card Component Challenge do Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
-- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
-  - [Table of contents](#table-of-contents)
+## Sumário
+
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
@@ -89,7 +89,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
-## Author
+## Autora
  - [<img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> ](https://github.com/mailacss)
 
 - Frontend Mentor - [@mailacss](https://www.frontendmentor.io/profile/mailacss)

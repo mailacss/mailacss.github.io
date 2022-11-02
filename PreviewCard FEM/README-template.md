@@ -11,12 +11,11 @@ Essa é a solução do projeto [Product preview card component challenge on Fron
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
-    - [Built with](#built-with)
+    - [Feito com](#feito-com)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -43,23 +42,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solução: [Add solution URL here](https://your-solution-url.com)
 
 ## My process
 
-### Built with
+### Feito com
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -100,16 +91,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
- <img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> 
- <a href="https://github.com/mailacss">Maila Cardoso</a>
+ [<img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> ](https://github.com/mailacss)
 
-- Frontend Mentor - [@mailacss](https://www.frontendmentor.io/profile/mailacss)
-- LinkedIn - [Maila Cardoso](https://www.linkedin.com/in/maila-cssantos/)
+Frontend Mentor - [@mailacss](https://www.frontendmentor.io/profile/mailacss)
+LinkedIn - [Maila Cardoso](https://www.linkedin.com/in/maila-cssantos/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

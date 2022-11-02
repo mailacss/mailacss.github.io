@@ -85,6 +85,12 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-top: 1vh;
+    
+}
+
+button:hover { 
+    background-color: rgb(26, 64, 49); 
+    transition: 0.3s;
 }
 
 

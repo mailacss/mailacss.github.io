@@ -18,7 +18,7 @@ body {
 .container {
     background-color: hsl(213, 19%, 18%);
     width: 330px;
-    height: 38vh;
+    height: auto;
     padding: 40px;
     border-radius: 6%;
 }
@@ -33,6 +33,10 @@ body {
     justify-content: center;
     padding: 0px;
     margin: 0px;
+}
+h1 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
 }
 
 p {
@@ -128,4 +132,39 @@ button{
 }
 #telaAgradece p {
     margin-bottom: 0px;
+}
+
+@media (max-width:409px)  {
+    .container {
+        width: 75vw;
+        height: auto;
+        padding: 20px;
+        margin: 0px;
+
+        
+    }
+    h1 {
+        font-size: 7vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    #option {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+    .op {
+        width: 5vh;
+        height: 5vh;
+        border-radius: 50%;
+        margin: 0.5vw;
+        align-self: center;
+    }
+    #selected {
+        height: auto;
+        width: 50%;
+        padding: 10px;
+        
+    }
 }

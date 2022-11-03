@@ -7,8 +7,8 @@ function esconde(el) {
 }
 function mostra(el) {
     var display = document.getElementById(el).style.display;
-    if(display == "block")
+    if(display == "flex")
         document.getElementById(el).style.display = 'none';
     else
-        document.getElementById(el).style.display = 'block';
+        document.getElementById(el).style.display = 'flex';
 }

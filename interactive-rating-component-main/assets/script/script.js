@@ -12,3 +12,11 @@ function mostra(el) {
     else
         document.getElementById(el).style.display = 'flex';
 }
+
+
+
+function pegaNota(clicked){
+    var ex = document.getElementById("selected");
+    ex.innerHTML = "You selected " + clicked + " out of 5";
+
+}

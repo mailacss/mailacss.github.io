@@ -37,16 +37,24 @@ body {
 h1 {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
+    color: white;
+    opacity: 0.7;
 }
-
 p {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: hsl(217, 12%, 63%);
+    opacity: 0.8;
 }
 button{
     cursor: pointer;
+}
+
+#option {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
 }
 
 .op {
@@ -57,15 +65,9 @@ button{
     height: 50px;
     border-radius: 50%;
     border: none;
-    margin: 8px;
 }
 
-#opbegin {
-    margin-left: 0px;
-}
-#opend {
-    margin-right: 0px;
-}
+
 #enviar{
     transition: 1s;
     background-color: hsl(25, 97%, 53%);
@@ -140,19 +142,16 @@ button{
         height: auto;
         padding: 20px;
         margin: 0px;
-
-        
     }
     h1 {
         font-size: 7vw;
         padding-top: 1vh;
         padding-bottom: 1vh;
     }
-    #option {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        
+    p {
+        font-size: 4vw;
+        font-family: 'Overpass', sans-serif;
+        font-weight: 400;
     }
     .op {
         width: 5vh;

@@ -14,6 +14,11 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+<<<<<<< HEAD
 assets/
 READMEtemplate.md
 styleguide.md
+=======
+.assets/
+READMEtemplate.md
+>>>>>>> 1c0fe5c4be2032c083f0f758d0ed296008152f17

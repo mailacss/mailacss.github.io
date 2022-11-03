@@ -1,3 +1,65 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: 'Fraunces', serif;
+font-family: 'Overpass', sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+}
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 330px;
+    height: 50vh;
+    padding: 40px;
+}
+#telaClassifica{
+
+}
+#sIcon {
+    background-color: hsl(216, 12%, 54%);
+    opacity: 15%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #telaAgradece {
     display: none;
+
+}
+p {
+    font-size: 15px;
+}
+button{
+    cursor: pointer;
+}
+
+.op {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+    opacity: 15%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 8px;
+}
+
+#opbegin {
+    margin-left: 0px;
+}
+#opend {
+    margin-right: 0px;
 }

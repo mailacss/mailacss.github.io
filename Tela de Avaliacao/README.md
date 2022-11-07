@@ -25,7 +25,8 @@ Nessa aplicação os usuários devem ser capazes de:
 
 ### Screenshot
 
-![](.assets/images/desktoppreview.png)
+![](./assets/images/desktoppreview.png)
+
 
 ### Links
 
@@ -72,7 +73,7 @@ Considero os maiores aprendizados desse projeto:
 ```
 
 
-![](.assets/images/mobilepreview.png)
+![](./assets/images/mobilepreview.png)
 
 ## Autora
  - [<img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> ](https://github.com/mailacss)

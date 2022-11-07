@@ -1,5 +1,5 @@
-# Frontend Mentor - Product preview card component solution
-Essa é a solução do projeto [Product Preview Card Component Challenge do Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
+# Frontend Mentor - Interactive Rating Component
+Essa é a solução do projeto [Interactive rating component do Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 ## Sumário
 

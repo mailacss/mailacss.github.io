@@ -53,6 +53,7 @@ Considero os maiores aprendizados desse projeto:
     width: 330px;
     height: auto;
 }
+```
 
 - Criar restrição: somente passar para outra tela caso tenha nota selecionada.
 - Efeitos e transições ao passar e clicar o mouse

@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - QR Code Component
 Essa é a solução do projeto [QR code component](https://www.frontendmentor.io/solutions/qr-code-screen-RJolZX2fSe).
 
 ## Sumário

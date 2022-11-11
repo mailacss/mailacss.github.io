@@ -7,11 +7,13 @@ function convert(pokemon){
     return `    
     <li class="pokemons">
             <h2>${pokemon.name}</h2>
-            <div>
-                <div id='categorias'></div>
-                <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png'></img>
+            <div id='categorias'>
+                <p>hab1</p>
+                <p>hab2</p>
             </div>
-    </li
+            <span>#num</span>
+            <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png'></img>
+    </li>
 `
 }
 
@@ -40,7 +42,7 @@ function converta(habilidades){
 */
 
 const pokemonUl = document.getElementById('container');
-pokemonUl.innerHTML = ''
+//pokemonUl.innerHTML = ''
 const pokemonsta = document.getElementById('static');
 
 fetch(url)

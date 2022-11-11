@@ -12,14 +12,32 @@ html,body{
     margin: 0;
 }
 
-div {
-    margin: 10px;
-    width: 50vw;
-    height: auto;
+img {
+    width: 100vw;
 }
 
-ol,li {
-    padding: 0;
-    margin: 0;
+#container{
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: 1fr;
+}
 
+.pokemons{
+    display: flex;
+    background-color: rgb(185, 127, 255);
+    height: 150px;
+    width: 80vw;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+
+.pokemons h2{
+    font-size: 1.5rem;
+}
+.pokemons img{
+    width: 100px;
 }

@@ -1,6 +1,8 @@
-const offset = 0
-const limit = 8
+var offset = 0
+const limit = 12
 const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
+
+
 
 function convert(pokemon){
 
@@ -12,7 +14,7 @@ function convert(pokemon){
                 <p>hab2</p>
             </div>
             <span>#num</span>
-            <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png'></img>
+            <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/35.png'></img>
     </li>
 `
 }
@@ -38,11 +40,10 @@ function converta(habilidades){
                     }
                 }
             )
-
 */
 
 const pokemonUl = document.getElementById('container');
-//pokemonUl.innerHTML = ''
+pokemonUl.innerHTML = ''
 const pokemonsta = document.getElementById('static');
 
 fetch(url)
@@ -56,6 +57,9 @@ fetch(url)
         }
     
     })
-
     .catch((error) => console.error(error))
 
+function pula() {
+    offset = offset+limit;
+    console.log("OKKKKKKKKKKKKKKKKKKKKKK")
+}

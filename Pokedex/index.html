@@ -14,12 +14,15 @@
 
 <body>
     <header>
-        <h1>Pokedex</h1>
-        <img src="assets/images/40134.jpg" alt="">
-        
+            <h1>Pokedex</h1>
     </header>
 
-    <div id="container">
+    <div class="botoes" id="b1" hidden>
+        <button >Anterior</button>
+        <button onclick="pula()">Proximo</button>
+    </div>
+
+    <div id="container" role="main">
         <li class="pokemons">
             <h2>$nome</h2>
             <div id='categorias'>
@@ -31,11 +34,12 @@
     </li>
     </div>
 
+    <div class="botoes">
+        <button >Anterior</button>
+        <button onclick="pula()">Proximo</button>
+    </div>
 
-
-<a href=""></a>
-
-<script src="assets/script/script.js"></script>
 </body>
+<script src="assets/script/script.js"></script>
 
 </html>

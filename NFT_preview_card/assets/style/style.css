@@ -34,8 +34,7 @@ padding: 3vh;
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 45vh;
-    height: 45vh;
+
 }
 #view svg{
     display: none;

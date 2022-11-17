@@ -6,14 +6,14 @@
     margin: 0;
 }
 html{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     padding: 0;
     margin: 0;
     
 }
 body{
-    height: 100vh;
+    height: 90%;
     width: 100vw;
     padding: 0;
     padding-bottom: 10px;

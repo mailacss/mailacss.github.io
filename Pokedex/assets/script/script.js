@@ -19,47 +19,23 @@ function convert(pokemon){
 `
 }
 
-/*
-function converta(habilidades){
-
-    return `    
-    ${habilidades.base_stat}
-    ${habilidades.stat.name}
-
-`
-}  
-
-            fetch(urlteste)
-                .then((resposta) => resposta.json())
-                .then((corpo) => corpo.stats)
-                .then((final) => {
-                 for (let inn = 0; inn < final.length; inn++) {
-                   const habilidades = final[inn]
-                   console.log(final[inn])
-                   pokemonsta.innerHTML += converta(habilidades)
-                    }
-                }
-            )
-*/
-
 const pokemonUl = document.getElementById('container');
-pokemonUl.innerHTML = ''
-const pokemonsta = document.getElementById('static');
+pokemonUl.innerHTML = '';
 
-fetch(url)
-    .then((response) => response.json())
-    .then((jsonBody) => jsonBody.results)
-    .then((pokList) => {
-        for (let index = 0; index < pokList.length; index++) {
-            const pokemon = pokList[index];
-            const urlteste = pokemon.url;
-            pokemonUl.innerHTML += convert(pokemon)
-        }
-    
+
+pokeApi.getPokemons().then((pokList = []) => {
+        pokemonUl.innerHTML += pokList.map((convert)).join('')
+
     })
-    .catch((error) => console.error(error))
 
-function pula() {
-    offset = offset+limit;
-    console.log("OKKKKKKKKKKKKKKKKKKKKKK")
-}
+
+
+
+
+
+
+
+
+    function pula() {
+        return 0
+    }

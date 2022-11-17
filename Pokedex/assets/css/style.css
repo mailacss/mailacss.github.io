@@ -6,7 +6,6 @@
     margin: 0;
 }
 html{
-    height: 100%;
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -61,7 +60,7 @@ header h1 {
 #container{
     width: 100%;
     height: auto;
-    display: grid;
+    display: none;
     row-gap: 1.5vh;
     column-gap: 1px;
     grid-template-columns: 1fr;
@@ -82,7 +81,7 @@ header h1 {
     padding: 20px;
     
 }
-.pokemons div{
+.pokemons ol{
     grid-column: 1/1;
     grid-row: 2/2;
     display: flex;
@@ -90,7 +89,7 @@ header h1 {
     justify-content: center;
     
 }
-.pokemons div p{
+.pokemons ol li{
     grid-column: 1/2;
     background-color: rgb(26, 20, 20);
     color: white;
@@ -98,6 +97,7 @@ header h1 {
     border-radius: 50px;
     margin: 2px;
     padding: 10px;
+    padding-left: 20px;
 
 }
 .pokemons h2{
@@ -120,7 +120,8 @@ header h1 {
 
 }
 .pokemons img{
-    width: 100px;
+    width: 100%;
+    min-width: 100px;
     grid-column: 4/4;
     grid-row: 2/2;
 }

@@ -4,6 +4,7 @@
     list-style:none;
     padding: 0;
     margin: 0;
+    text-transform: capitalize;
 }
 html{
     width: 100vw;
@@ -22,13 +23,15 @@ body{
 
 }
 .botoes {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     width: 90%;
     min-width: 110px;
     margin: auto;
     margin-bottom: 3vh;
     margin-top: 3vh;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: auto;
 }
 #b1{
     display: flex;
@@ -41,7 +44,17 @@ button {
     padding: 10px;
     border-radius: 15px;
 }
-
+button:hover {
+    background-color: hsla(222, 49%, 44%,0.9);
+    color: rgb(255,204,1);
+    cursor: pointer;
+}
+#loadBack {
+    display: none;
+}
+#loadMore {
+    grid-column: 10/10;
+}
 header{
     background-color: hsla(222, 49%, 44%,0.9);
     color: rgb(255,204,1);
@@ -54,7 +67,6 @@ header h1 {
     margin: 0px;
     
 }
-
 #container{
     width: 100%;
     height: auto;
@@ -119,7 +131,7 @@ header h1 {
 }
 .pokemons img{
     width: 100%;
-    min-width: 100px;
+    max-height: 115px;
     grid-column: 4/4;
     grid-row: 2/2;
 }

@@ -2,20 +2,26 @@ var offset = 0
 const limit = 12
 const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 
-function convertPokTypes(pokType) {
-    return pokType.map((typesSlot) => `<li >${typesSlot.type.name}</li>`)
-}
 
 function convert(pokemon){
+    document.getElementById("container").style.display = 'grid'
+    var teste = ''
+    if (pokemon.pNumber < 10) {
+        teste = '00'+pokemon.pNumber
+    } else if (pokemon.pNumber < 100) {
+        teste = '0'+pokemon.pNumber
+    } else{
+        teste = pokemon.pNumber
+    }
 
     return `    
-    <li class="pokemons">
+    <li class="pokemons ${pokemon.type}" >
             <h2>${pokemon.name}</h2>
             <ol>
-                ${convertPokTypes(pokemon.types).join('')}
+                ${pokemon.types.map((type) => `<li class="${type}">${type}</li>`).join('')}
             </ol>
-            <span>#${pokemon.order}</span>
-            <img src='${pokemon.sprites.other.home.front_default}'></img>
+            <span>#${teste}</span>
+            <img src='${pokemon.photo}'></img>
     </li>
 `
 }
@@ -26,7 +32,7 @@ pokemonUl.innerHTML = '';
 
 pokeApi.getPokemons().then((pokList = []) => {
         pokemonUl.innerHTML += pokList.map((convert)).join('')
-        document.getElementById("container").style.display = 'grid'
+
 
 
 

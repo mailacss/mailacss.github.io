@@ -30,13 +30,9 @@ body{
     margin: auto;
     margin-bottom: 3vh;
     margin-top: 3vh;
-    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-columns: 1fr 7fr 1fr;
     grid-template-rows: auto;
 }
-#b1{
-    display: flex;
-}
-
 button {
     background-color: hsla(48, 100%, 50%, 0.7);
     color: rgb(57,90,168);
@@ -55,18 +51,27 @@ button:hover {
 #loadMore {
     grid-column: 10/10;
 }
+
 header{
     background-color: hsla(222, 49%, 44%,0.9);
     color: rgb(255,204,1);
-    padding: 5vh ;
+    height: 14vh;
+    padding-top: 2vh ;
+    padding-bottom: 1vh;
     margin-bottom: 2vh;
     text-align: center;
     font-weight: 700;
+    border-radius: 0px 0px 100% 100%; 
 }
 header h1 {
     margin: 0px;
-    
+    font-size: 5vh;  
 }
+header img {
+    height: 8vh;
+    padding-bottom: 10px;
+}
+
 #container{
     width: 100%;
     height: auto;

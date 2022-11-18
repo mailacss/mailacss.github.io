@@ -42,7 +42,7 @@ loadMore.addEventListener('click', () => {
     offset += limit
     loadPokemonItens(offset,limit)
     loadBack.style.display = 'block'
-    console.log(offset)
+    window.scrollTo(0, 0);
 })
 
 loadBack.addEventListener('click', () => {
@@ -50,6 +50,7 @@ loadBack.addEventListener('click', () => {
     if (offset>=limit) {
         offset -= limit
         loadPokemonItens(offset,limit)
+        window.scrollTo(0, 0);
         if (offset<limit) {
             loadBack.style.display = 'none'
         }   

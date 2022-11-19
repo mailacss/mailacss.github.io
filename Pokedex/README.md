@@ -2,8 +2,7 @@
 
 # POKEDEX
 
-Essa é a Pokedex desenvolvida no curso Orange Tech +
-[Orange Tech +](https://www.dio.me/bootcamp/orange-tech?ref=CG).
+Essa é a Pokedex desenvolvida no curso [Orange Tech +](https://www.dio.me/bootcamp/orange-tech?ref=CG)
 
 ## Sumário
 

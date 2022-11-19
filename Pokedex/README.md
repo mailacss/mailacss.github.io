@@ -9,8 +9,6 @@ Essa é a Pokedex desenvolvida no curso Orange Tech +
 
  - [Projeto](#projeto)
     - [O desafio](#o-desafio)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
   - [O processo](#o-processo)
     - [Tecnologias utilizadas](#tecnologias-utilizadas)
     - [O que aprendi](#o-que-aprendi)
@@ -63,7 +61,9 @@ Considero os maiores aprendizados desse projeto:
 
 ### Continua?
 
-- Há planos para adicionar animações com Javascript futuramente.
+- Há planos para:
+  - adicionar mecanismo de busca
+  - adicionar card com mais detalhes do pokemon
 
 ## Autora
  - [<img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> ](https://github.com/mailacss)

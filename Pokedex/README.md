@@ -1,6 +1,10 @@
 ![](./assets/images/header.png)
 
 # POKEDEX
+
+Essa é a Pokedex desenvolvida no curso Orange Tech +
+[Orange Tech +](https://www.dio.me/bootcamp/orange-tech?ref=CG).
+
 ## Sumário
 
  - [Projeto](#projeto)
@@ -8,7 +12,7 @@
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [O processo](#o-processo)
-    - [Feito com](#feito-com)
+    - [Tecnologias utilizadas](#tecnologias-utilizadas)
     - [O que aprendi](#o-que-aprendi)
     - [Continua?](#continua)
   - [Autora](#autora)
@@ -24,22 +28,20 @@ Nessa aplicação o usuário deve:
 - Ver o layout adaptado ao tamanho da tela do seu dispositivo
 - Ver estado de hover em elementos interativos
 
-### Screenshot
-
 ![](./assets/images/desktop.png)
 
-### Links
-
-- [Link da solução](https://silver-mousse-4d4acd.netlify.app/previewcard%20fem/)
-- [Link do projeto](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+### [Link da solução](https://mailacss.netlify.app/pokedex/)
 
 ## O processo
 
-### Feito com
+### Tecnologias utilizadas
 
 - HTML5
 - CSS
   - Flexbox
+  - Grid
+- Javascript
+- Mobile-first
 
 ### O que aprendi
 
@@ -66,6 +68,5 @@ Considero os maiores aprendizados desse projeto:
 ## Autora
  - [<img src="https://avatars.githubusercontent.com/u/73539084?v=4" alt="" width=115> ](https://github.com/mailacss)
 
-- Frontend Mentor - [@mailacss](https://www.frontendmentor.io/profile/mailacss)
 - LinkedIn - [Maila Cardoso](https://www.linkedin.com/in/maila-cssantos/)
 

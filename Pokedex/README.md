@@ -1,4 +1,4 @@
-![](./assets/images/desktop.png)
+![](./assets/images/header.png)
 ## Sumário
 
  - [Projeto](#projeto)

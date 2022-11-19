@@ -1,5 +1,4 @@
-# Frontend Mentor - Product preview card component solution
-Essa é a solução do projeto [Product Preview Card Component Challenge do Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
+# POKEDEX
 
 ## Sumário
 
@@ -17,14 +16,16 @@ Essa é a solução do projeto [Product Preview Card Component Challenge do Fron
 
 ### O desafio
 
-Nessa aplicação os usuários devem ser capazes de:
+Nessa aplicação o usuário deve:
 
+- Ver uma lista de (12) pokemons organizados em ordem crescente pelo seu ID
+- Pular ou voltar a página de exibição
 - Ver o layout adaptado ao tamanho da tela do seu dispositivo
 - Ver estado de hover em elementos interativos
 
 ### Screenshot
 
-![](./images/screenshots/desktopview.png)
+![](./assets/images/desktop.png)
 
 ### Links
 

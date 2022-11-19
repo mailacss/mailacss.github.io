@@ -1,5 +1,4 @@
-# POKEDEX
-
+![](./assets/images/desktop.png)
 ## Sumário
 
  - [Projeto](#projeto)
@@ -12,6 +11,7 @@
     - [Continua?](#continua)
   - [Autora](#autora)
 
+# POKEDEX
 ## Projeto
 
 ### O desafio

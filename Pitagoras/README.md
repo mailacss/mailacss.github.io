@@ -3,7 +3,7 @@
 ## Cálculo da relação do Teorema de Pitágoras
 <p> Nessa página é possível calcular, <b>obtendo um resultado com duas casas decimais</b>, a hipotenusa, o cateto adjacente e oposto de um triângulo retângulo. </p>
 </br>
-<img src="/assets/exemplo.png" alt="" height="400">
+<img src="./assets/exemplo.png" alt="" height="400">
 </br>
 
 ## A página está finalizada e em funcionamento.

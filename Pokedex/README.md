@@ -25,9 +25,10 @@ Nessa aplicação o usuário deve:
 - Ver o layout adaptado ao tamanho da tela do seu dispositivo
 - Ver estado de hover em elementos interativos
 
-![](./assets/images/desktop.png)
-
-### [Link da solução](https://mailacss.netlify.app/pokedex/)
+| Desktop Preview |
+|----------|
+| ![](./assets/images/desktop.png)  |
+| [Link da solução](https://mailacss.netlify.app/pokedex/)  |
 
 ## O processo
 
@@ -56,11 +57,10 @@ pokeApi.getPokemons = (offset = 0, limit = 8) => {
     return fetch(url)
     .then((response) => response.json())
 ```
-| Imagem 1 | Imagem 2 | Imagem 3 |
-|----------|----------|----------|
-| ![](./assets/images/mobile.png) |  ![](./assets/images/mobile.png) | ![](./assets/images/mobile.png) |
-  
-![](./assets/images/mobile.png)
+| Mobile Preview | Ipad Preview |
+|----------|----------|
+|  ![](./assets/images/mobile.png)  | ![](./assets/images/ipad.png) |
+
 
 ### Continua?
 

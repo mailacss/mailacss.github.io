@@ -6,7 +6,9 @@ Essa é a Pokedex desenvolvida no curso [Orange Tech +](https://www.dio.me/bootc
 
 ## Sumário
 
- - [Projeto](#projeto)
+- [POKEDEX](#pokedex)
+  - [Sumário](#sumário)
+  - [Projeto](#projeto)
     - [O desafio](#o-desafio)
   - [O processo](#o-processo)
     - [Tecnologias utilizadas](#tecnologias-utilizadas)
@@ -28,7 +30,7 @@ Nessa aplicação o usuário deve:
 | Desktop Preview |
 |----------|
 | ![](./assets/images/desktop.png)  |
-| [Link da solução](https://mailacss.netlify.app/pokedex/)  |
+| [Link da solução](https://mailacss.netlify.app/pokedex/)   |
 
 ## O processo
 

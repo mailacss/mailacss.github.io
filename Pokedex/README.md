@@ -44,19 +44,24 @@ Nessa aplicação o usuário deve:
 
 Considero os maiores aprendizados desse projeto:
 
-- Estilização de diferentes itens numa mesma div container
+- Consumo de **API** (PokeApi)
+- Construção de **models**
+- Utilização do método mobile first
+- Uso de **Arrow Functions**
 
-```html
-<div id="prices">$149.99 <s>$169.99</s> </div>
+```javascript
+pokeApi.getPokemons = (offset = 0, limit = 8) => {
+    const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}` 
+
+    return fetch(url)
+    .then((response) => response.json())
 ```
-- Utilização de @media para responsividade
-
-```css
-@media (max-width: 599px) {
-}
-```
-
-![](./images/screenshots/mobileview.png)
+  <div align="center" display="flex" flex-direction="row">
+            <img src="./assets/images/mobile.png" alt="">
+            <img src="./assets/images/mobile.png" alt="">
+  </div>
+  
+![](./assets/images/mobile.png)
 
 ### Continua?
 

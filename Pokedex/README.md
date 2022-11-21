@@ -61,7 +61,7 @@ pokeApi.getPokemons = (offset = 0, limit = 8) => {
 ```
 | Mobile Preview | Ipad Preview |
 |----------|----------|
-|  ![](./assets/images/mobile.png)  | ![](./assets/images/ipad.png) |
+|  ![](./assets/images/mobile.png)  | ![](./assets/images/ipad2.png) |
 
 
 ### Continua?

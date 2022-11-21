@@ -56,10 +56,9 @@ pokeApi.getPokemons = (offset = 0, limit = 8) => {
     return fetch(url)
     .then((response) => response.json())
 ```
-  <div align="center" display="flex" flex-direction="row">
-            <img src="./assets/images/mobile.png" alt="">
-            <img src="./assets/images/mobile.png" alt="">
-  </div>
+| Imagem 1 | Imagem 2 | Imagem 3 |
+|----------|----------|----------|
+| ![](./assets/images/mobile.png) |  ![](./assets/images/mobile.png) | ![](./assets/images/mobile.png) |
   
 ![](./assets/images/mobile.png)
 

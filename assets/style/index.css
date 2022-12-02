@@ -70,46 +70,48 @@ header #headerContent p {
     
 }
 header img {
-    align-self: center;
+    align-self: end;
     grid-column: 3/3;
     grid-row: 2/3;
 
-    
+ 
 }
-
-
 
 main{
     width: 100vw;
 }
-
 .parte {
     height: 90vh;
+}
+
+main .parte {
+    padding-top: 10vh;
+
+}
+main .parte h2{
+    font-size: 3.5vw;
 
 }
 #habilidades{
-    background-color:rgb(37, 3, 48);
+    background-color:hsla(1, 60%, 40%,0.3);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 #habilidades img{
     width:10vw;
     margin: auto;
 }
-
-#sobre{
-    background-color:rgb(3, 48, 48);
-}
 #projetos{
-    background-color:rgb(0, 3, 97);
+
 }
 #certificados{
-    background-color:rgb(65, 21, 21);
+    background-color:hsla(1, 60%, 40%,0.3);
 }
 #contato{
-    background-color:rgb(33, 65, 21);
+    height: 50vh;
 }
 footer {
+    background-color:hsla(1, 60%, 40%,0.3);
     height: 8vh;
 }

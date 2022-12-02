@@ -10,10 +10,15 @@
 html {
     scroll-behavior: smooth;
     background-color: rgb(9,12,8);
+    width: 100vw;
+}
+body {
+    width: 100vw;
 }
 header {
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 header #headerContent {
     margin-top: 100px;
@@ -29,7 +34,11 @@ header nav ul{
 }
 header nav ul li{
     margin-top: 10px;
-    margin-right: 50px;
+    margin-right: 4vw;
+}
+
+main{
+    width: 100vw;
 }
 
 .parte {
@@ -38,7 +47,15 @@ header nav ul li{
 }
 #habilidades{
     background-color:rgb(37, 3, 48);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+#habilidades img{
+    width:10vw;
+    margin: auto;
+}
+
 #sobre{
     background-color:rgb(3, 48, 48);
 }

@@ -2,31 +2,32 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    color: white;
+    color: hsl(55, 14%, 81%);
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
 }
 html {
     scroll-behavior: smooth;
-    background-color: rgb(9,12,8);
+    background-color: hsl(150, 23%, 5%);
     width: 100vw;
 }
 
 h2 {
     font-weight: 400;
     font-size: 4.5vw;
+    color: #a32b29;
 }
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 12fr 3fr ;
-    
+    grid-template-rows: 1fr 12fr 3fr ;  
 }
 
 header nav {
     position: fixed;
     width: 100vw;
-    background-color: rgb(71,64,86);
+    background-color: hsl(63, 14%, 68%);
+    /* background-color: hsl(55, 14%, 81%); */
     height: 50px;
     grid-column: 1/1;
 
@@ -43,7 +44,9 @@ header nav ul{
 header nav ul li{
     margin-top: 10px;
     margin-right: 4vw;
-
+}
+header nav ul li a{
+    color: white;
 }
 header #headerContent {
     align-self: center;

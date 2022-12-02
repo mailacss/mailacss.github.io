@@ -5,10 +5,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    color: rgb(185,198,174);
 }
 html {
     scroll-behavior: smooth;
-    background-color: gray;
+    background-color: rgb(9,12,8);
 }
 header {
     display: flex;
@@ -20,11 +21,23 @@ header #headerContent {
 }
 header nav {
     position: fixed;
+    width: 100vw;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul li{
+    margin-top: 10px;
+    margin-right: 50px;
 }
 
 .parte {
     height: 90vh;
 
+}
+#habilidades{
+    background-color:rgb(37, 3, 48);
 }
 #sobre{
     background-color:rgb(3, 48, 48);

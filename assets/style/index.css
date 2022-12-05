@@ -21,6 +21,8 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 12fr 3fr ;  
+    min-height: 90vh;
+    max-height: auto;
 }
 
 header nav {
@@ -70,9 +72,11 @@ header #headerContent p {
     
 }
 header img {
-    align-self: end;
+    align-self:center;
+    justify-self: center;
     grid-column: 3/3;
     grid-row: 2/3;
+    border-radius: 50%;
 
  
 }

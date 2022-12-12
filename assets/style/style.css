@@ -15,6 +15,7 @@ html {
 }
 
 header {
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 8fr ; 
@@ -22,7 +23,7 @@ header {
 header nav {
     position: fixed;
     background-color: hsl(63, 14%, 68%);
-    width: 100vw;
+    width: 100%;
     height: auto;
 
 }
@@ -122,7 +123,7 @@ main .parte h2{
 
 }
 .exemplos img{
-    width: 70vw;
+    width: 300px;
 }
 
 #certificados {
@@ -164,13 +165,114 @@ footer img {
 
 @media (min-width: 800px)
 {
+
     header {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 8fr ; 
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 10fr ; 
+
     }
-    header img {
+    header #headerContent {
+        width: 100vw;
+        margin: 0;
+        height: 90vh;
+        grid-column: 1/1;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: 1fr 1fr 65fr ; 
+        font-size: 12px;
+    }
+    header #headerContent img {
+        width: 200px;
+        grid-column: 2/2;
+        grid-row: 1/2;
+        margin-right: 3vh;
+        justify-self: center;
+    }
+    header #headerContent h1 {
+        grid-column:1/1;
+        grid-row: 1/1;
+        text-align: justify;
+        margin-left: 30px;
+    }
+    header #headerContent h2 {
+        grid-column:1/3;
+        grid-row: 2/2;
+        text-align: justify;
+        margin-left: 30px;
+    }
+    header #headerContent p {
+        width: 90%;
+        grid-column:1/3;
+        grid-row: 3/3;
+        text-align: justify;
+        margin:30px;
+        margin-left: 30px;
+        font-size: 40px;
+    }
+    p {
+        font-size: 40px;
+    }
+
+    main .parte {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 9fr; 
+    }
+    main .parte h2{
+        grid-row: 2/2;
+        grid-column: 1/3;
+        text-align: center;
+    }
+    .exemplos{
+        margin-left: 30px;
+        margin-right: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+        grid-gap: 30px;
+    }
+    #certificados h3 {
+        font-size: 3vw;
+        font-weight: 400;
+        color: hsl(150, 23%, 5%);
+    }
+    #projetos h3 {
+        font-size: 3vw;
+        font-weight: 400;
+        color: hsl(63, 14%, 68%);
+    }
+
+    #habilidades{
+        min-height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 9fr; 
+    }
+    #habilidades h2{
+        grid-row: 2/2;
+    }
+
+}
+
+
+@media (min-width: 1350px)
+{
+    main .parte {
+        height: 50vh;
+    }
+    footer h2{
+        padding-top: 10vh;
+
+    }
+    footer #cnt{
+        width: 100vw;
+        margin: 0;
+        padding-bottom: 100px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    footer img {
         width: 10vw;
-        border-radius: 50%;
-        grid-column: 2/3;
+    }
+    footer i{
+        font-size: 10vw;
     }
 }

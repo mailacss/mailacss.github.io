@@ -229,6 +229,9 @@ footer img {
         grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
         grid-gap: 30px;
     }
+    .exemplos p{
+        font-size: 26px;
+    }
     #certificados h3 {
         font-size: 3vw;
         font-weight: 400;

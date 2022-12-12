@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+
+    <main>
+        <div id="user" class="space">
+            <div id="buttons">
+                <button value="1" onclick="option(this.value)">
+                    PEDRA</button>
+                <button value="2" onclick="option(this.value)">
+                    PAPEL</button>
+                <button value="3" onclick="option(this.value)">
+                    TESOURA</button>
+            </div>
+
+        </div>
+        <div id="ring"> 
+            <div id="image">
+                <img src="/assets/images/1.png" alt="" id="imgUser">
+                <img src="/assets/images/2.png" alt="" id="imgMac">
+            </div>
+            <div id="result">
+                <h1>RESULTADO</h1>
+            </div>
+            <a id="resetar" href="teste.html">
+                <button> RESETAR </button>
+            </a> 
+        </div>
+        <div id="machine" class="space">
+            <div id="mChoice">
+                <p>
+                    TESOURA
+                </p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<script src="teste.js"></script>
+</html>

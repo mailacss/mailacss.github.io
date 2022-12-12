@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+}
+body{
+    height: 100vh;
+}
+header{
+    height: 10vh;
+    text-align: center;
+}
+header h1{
+    padding-top: 3vh;
+}
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space{
+    height: 100%;
+    width: 50%;
+}
+
+#user{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+#user #buttons {
+    background-color: w ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 30%;
+    margin-left: 80px;
+}
+#user #buttons button {
+    font-size: 30px;
+    border-radius: 25px;
+    height: 100px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+
+
+#ring{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 70vh;
+    width: 500px;
+    border-radius: 50%;
+}
+#ring #image{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    border-radius: 100px 100px 0% 0%;
+}
+#ring #image img{
+    height: 40%;
+}
+#ring #image #imgUser{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#ring #result{
+    background-color: white;
+    height: 100px;
+    border-radius: 0% 0% 100px 100px;
+    text-align: center;
+}
+#ring #resetar {
+    margin: auto;
+}
+#ring #resetar button {
+    height: 30px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 50px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+
+#machine{
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#machine #mChoice{
+    background-color:white;
+    height: 100px;
+    width: 30%;
+    margin-right: 80px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+

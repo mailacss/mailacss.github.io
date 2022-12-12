@@ -258,6 +258,9 @@ footer img {
 
 @media (min-width: 1350px)
 {
+    #projetos h3,#certificados h3 {
+        font-size: 32px;
+    }
     main .parte {
         height: 50vh;
     }

@@ -1,7 +1,7 @@
 * {
     list-style: none;
     text-decoration: none;
-    color: hsl(55, 14%, 81%);
+    color: hsl(0, 0%, 100%);
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -9,276 +9,46 @@
 }
 html {
     scroll-behavior: smooth;
-    background-color: hsl(150, 23%, 5%);
     width: 100vw;
     height: 100vh;
-}
-
-header {
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr ; 
-}
-header nav {
-    position: fixed;
-    background-color: hsl(63, 14%, 68%);
-    width: 100%;
-    height: auto;
-
-}
-header nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-    grid-column: 1/1;
-    grid-row: 1/2;
-
-}
-header nav ul li{
-    margin: 10px;
-    margin-right: 20px;
-}
-header nav ul li a{
-    color: white;
-}
-header #headerContent {
-    grid-column: 1/1;
-    grid-row: 2/2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    height: 90%;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 10vw;
-}
-header #headerContent h1 {
-    margin-top: 10vw;
-    font-weight: 700;
-    font-size: 8vw;
-}
-h2 {
-    font-weight: 400;
-    font-size: 6vw;
-    color: #a32b29;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
-
-}
-p {
-    font-size: 5vw;
-    font-weight: 100;
-}
-header img {
-    width: 80vw;
-    border-radius: 50%;
-}
-
-main .parte {
-    min-height: 80vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 9fr; 
-}
-
-#habilidades{
-    background-color:hsla(1, 60%, 40%,0.3);
-    background-color: hsl(63, 14%, 68%);
-}
-main .parte h2{
-    grid-row: 2/2;
-}
-#habilidades #icons{
-    grid-row: 3/3;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-
-}
-#habilidades #icons img{
-    width: 25vw;
-    max-width: 150px;
-    padding: 10px;
-    border: dotted  hsla(1, 60%, 40%,0.3) 1px;
-}
-#habilidades #icons #description{
-    margin: 10vw;
-}
-
-.exemplos{
-    grid-row: 3/3;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-bottom: 5vh;
-}
-.exemplos div{
-    margin-bottom: 15px;
-
-}
-.exemplos img{
-    width: 300px;
-}
-
-#certificados {
-    background-color: hsl(63, 14%, 68%);
+    
     
 }
-#certificados .exemplos p {
-    color: hsl(150, 23%, 5%);
-    margin: 5px;
+body {
+    display: grid;
+    justify-content: center;
+    height: inherit;
+    background-color: #121012;
+    background-image: 
+        url(/assets/uuundulate.svg),
+        linear-gradient(to bottom, #2d1d44a6, #0e0915);
+    background-repeat: no-repeat;
+        
 }
-#certificados h3 {
-    font-size: 6vw;
-    font-weight: 400;
-    color: hsl(150, 23%, 5%);
+main {
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 15px 15px;
+    min-width: 50vw;
+    width: clamp(70vw, 80vw, 95vw);
 }
-#projetos h3 {
-    font-size: 6vw;
-    font-weight: 400;
-    color: hsl(63, 14%, 68%);
+
+.contentCard {
+    background-color: #0e0915;
+    height: auto;
+    padding: 25px;
+    border: 1px solid #121012;
+    border-radius: 10px;
+
+    
+}
+#projects {
+    flex-basis: 100%;
 }
 
 footer {
-    height: 50vh;
-}
-footer div{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 40vw;
-    margin: auto;
-}
-footer i{
-    font-size: 15vw;
-}
-footer img {
-    width: 15vw;
-}
-
-@media (min-width: 800px)
-{
-
-    header {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 10fr ; 
-
-    }
-    header #headerContent {
-        width: 100vw;
-        margin: 0;
-        height: 90vh;
-        grid-column: 1/1;
-        display: grid;
-        grid-template-columns: 3fr 2fr;
-        grid-template-rows: 1fr 1fr 65fr ; 
-        font-size: 12px;
-    }
-    header #headerContent img {
-        width: 200px;
-        grid-column: 2/2;
-        grid-row: 1/2;
-        margin-right: 3vh;
-        justify-self: center;
-    }
-    header #headerContent h1 {
-        grid-column:1/1;
-        grid-row: 1/1;
-        text-align: justify;
-        margin-left: 30px;
-    }
-    header #headerContent h2 {
-        grid-column:1/3;
-        grid-row: 2/2;
-        text-align: justify;
-        margin-left: 30px;
-    }
-    header #headerContent p {
-        width: 90%;
-        grid-column:1/3;
-        grid-row: 3/3;
-        text-align: justify;
-        margin:30px;
-        margin-left: 30px;
-        font-size: 40px;
-    }
-    p {
-        font-size: 40px;
-    }
-
-    main .parte {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 9fr; 
-    }
-    main .parte h2{
-        grid-row: 2/2;
-        grid-column: 1/3;
-        text-align: center;
-    }
-    .exemplos{
-        margin-left: 30px;
-        margin-right: 30px;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
-        grid-gap: 30px;
-    }
-    .exemplos p{
-        font-size: 26px;
-    }
-    #certificados h3 {
-        font-size: 3vw;
-        font-weight: 400;
-        color: hsl(150, 23%, 5%);
-    }
-    #projetos h3 {
-        font-size: 3vw;
-        font-weight: 400;
-        color: hsl(63, 14%, 68%);
-    }
-
-    #habilidades{
-        min-height: 80vh;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 9fr; 
-    }
-    #habilidades h2{
-        grid-row: 2/2;
-    }
-
-}
-
-
-@media (min-width: 1350px)
-{
-    #projetos h3,#certificados h3 {
-        font-size: 32px;
-    }
-    main .parte {
-        height: 50vh;
-    }
-    footer h2{
-        padding-top: 10vh;
-
-    }
-    footer #cnt{
-        width: 100vw;
-        margin: 0;
-        padding-bottom: 100px;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    footer img {
-        width: 10vw;
-    }
-    footer i{
-        font-size: 10vw;
-    }
+    height: 10vh;
 }

@@ -15,11 +15,11 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // conexao mysql
 const db = await mysql.createConnection({
-  host: "tramway.proxy.rlwy.net",
-  port: 46794,
-  user: "root",
-  password: "elARYPkgXXQGNnNUKVIwNcTqqsyAXwBU",
-  database: "railway"
+  host: "",
+  port: "",
+  user: "",
+  password: "",
+  database: "r"
 });
 
 // endpoint

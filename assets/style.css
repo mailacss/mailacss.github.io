@@ -12,7 +12,6 @@ html {
     width: 100vw;
     height: 100vh;
     
-    
 }
 body {
     display: grid;
@@ -20,35 +19,8 @@ body {
     height: inherit;
     background-color: #121012;
     background-image: 
-        url(/assets/uuundulate.svg),
+        url(/assets/waves.svg),
         linear-gradient(to bottom, #2d1d44a6, #0e0915);
     background-repeat: no-repeat;
         
-}
-main {
-    height: 90vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    gap: 15px 15px;
-    min-width: 50vw;
-    width: clamp(70vw, 80vw, 95vw);
-}
-
-.contentCard {
-    background-color: #0e0915;
-    height: auto;
-    padding: 25px;
-    border: 1px solid #121012;
-    border-radius: 10px;
-
-    
-}
-#projects {
-    flex-basis: 100%;
-}
-
-footer {
-    height: 10vh;
 }

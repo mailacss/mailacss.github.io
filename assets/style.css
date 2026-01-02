@@ -1,26 +1,96 @@
 * {
     list-style: none;
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
-    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 html {
-    scroll-behavior: smooth;
-    width: 100vw;
-    height: 100vh;
+  font-size: 26px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100vw;
+    font-family: "Averia Libre", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 65px;
     
 }
-body {
-    display: grid;
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 65px;
+    
+}
+h1 {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+section {
+    height: 60vh;
+    padding: 100px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    height: inherit;
-    background-color: #121012;
-    background-image: 
-        url(/assets/waves.svg),
-        linear-gradient(to bottom, #2d1d44a6, #0e0915);
-    background-repeat: no-repeat;
-        
+}
+div {
+    width: 40%;
+}
+
+ul {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+.light {
+    background-color: #731F2E;
+    background-color: #D9ABA0;
+    color: #261a15;
+}
+
+.dark {
+    background-color: #261a15;
+    color: #D9CCC5;
+}
+
+
+
+
+
+/* Mobile */
+@media (max-width: 767px) {
+section {
+    height: auto;
+    padding: 100px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 80%;
+}
+
+
 }

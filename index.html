@@ -4,24 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+
+    <!-- 
+    font-family: "Averia Libre", system-ui;
+    font-weight: 300 ou 700;
+    font-style: normal;
+
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    -->
+
     <link rel="stylesheet" href="assets/style.css">  
     <title>Maila</title>
 
 </head>
 <body>
-    <section id="about">
-        <h1>Maila Cardoso</h1>
-        <img src="assets/waves.svg" alt="">
-    </section>
-    <section id="projects">
-        <h1>Meus Projetos</h1>
-    </section>
-    <section id="curriculum">
-        <h1>Formação</h1>
-    </section>
-    <section id="contact">
-        <h1>Fale Comigo!</h1>
-    </section>
+    <main> <!-- main controla todo o conteúdo visual -->
+        <header class="dark">
+            <h1>Maila Cardoso</h1>
+        </header>
+
+        <section id="about" class="light">
+            <!-- breve introdução e meios de contato -->
+             <div id="prof-photo">
+                <img src="assets/Foto 4x4 PB.jpg" alt="">
+             </div>
+             
+
+             <div id="intro">
+                <p>Olá! Sou graduando em Gestão de TI e entusiasta de Arquitetura de Sistemas. Especializando-me em traduzir requisitos de negócio em estruturas tecnológicas de alto impacto. Com foco em governança, engenharia de software e gestão ágil, busco construir o futuro da tecnologia através de sistemas resilientes e liderança estratégica.</p>
+                
+                <ul id="contact">
+                    <li>Linkedin</li>
+                    <li>Github</li>
+                    <li>E-mail</li>
+                    <li>Lattes</li>
+                </ul>
+             </div>
+            
+            
+            
+        </section>
+
+        <section id="projects" class="dark"> 
+            <!-- carrossel de projetos (ajeitar display separado) -->
+            <h2>Meus Projetos</h2>
+            <ol>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ol>
+        </section>
+
+        <section id="skills" class="light">
+            <!-- hard e soft skills e línguas -->
+             <div id="hard-skills">
+                <h2>Skills</h2>
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                </ol>
+
+             </div>
+
+             <div id="soft-skills">
+                <h2>Skills</h2>
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                </ol>
+
+             </div>
+
+        </section>
+
+        <section id="curriculum" class="dark">
+            <!-- experiencias, formações e certificados -->
+             <div id="Formação">
+                <h2>Formações</h2>
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                </ol>
+
+             </div>
+
+             <div id="Experiências">
+                <h2>Experiências</h2>
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                </ol>
+
+             </div>
+
+        </section>
+
+
+    </main>
+    
 
 </body>
 <script src="index.js"></script>
